@@ -1,0 +1,136 @@
+#image1{
+  height: 200px;
+  border: 4px solid;
+  border-radius: 123px;
+  padding: 10px;
+}
+header {
+	text-align: center;
+	color: white;
+	background-color: lightgrey;
+	font-family: Quicksand;
+	font-weight: bold; 
+	background-image: url(Image/pp2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.name {
+	border: solid;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 5px;
+	border-width: 2px;
+
+}
+#HRP{
+	border-top: 2px dashed;
+	border-bottom: 2px dashed;
+	border-color: black;
+	width: 50%;
+}
+.Iconef{
+font-size: 40px;
+border: solid;
+border-radius: 5px;
+padding-right: 15px;
+padding-left: 15px;
+background-color: #3B5998;
+color : white; 
+}
+.Iconef:hover{
+	background-color: grey;
+}
+
+.IconeIn{
+font-size: 40px;
+border: solid;
+border-radius: 5px;
+padding-right: 9px;
+padding-left: 9px;
+background-color: #0e76a8;
+color : white; 
+}
+.IconeIn:hover{
+	background-color: grey;
+}.container{
+	background-color: #D4E6F1;
+	display: flex;
+	flex-direction: row;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 10px;
+	border: solid;
+}
+.boite1{
+	width: 25%;
+	font-weight: bold;
+	vertical-align: middle;
+	justify-content: center;
+	color: white;
+	min-width: 200px;
+	background-color:#B8EBFF;
+	height: 100px;
+	border: solid;
+	text-align: center;
+	border-color: black;
+	border-radius: 36px;
+	vertical-align: center;
+    font-family: Quicksand;
+	background-image: url(Image/pp3.jpeg);
+	background-size: cover;
+	
+}
+.boite2{
+	width: 40%;
+	font-weight: bold;
+	min-width: 300px;
+	height: 100px;
+	background-color: #B8EBFF;
+	border: solid;
+	border-radius: 36px;
+	text-align: center;
+	font-family: Quicksand;
+	background-image: url(Image/pp6.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+.boite3{
+	width: 25%;
+	font-weight: bold;
+	min-width: 200px;
+	height: 100px;
+	background-color: #B8EBFF;
+	border: solid;
+	border-radius: 36px;
+	text-align: center;
+	font-family: Quicksand;
+	background-image: url(Image/pp4.jpeg);
+	background-size: cover;
+}
+.container2{
+	background-color: #D4E6F1;
+	display: flex;
+	flex-direction: row;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 10px;
+	border: solid;
+}
+.boite4{
+	width: 70%;
+	color: white;
+	font-weight: bold;
+	min-width: 200px;
+	height: 100px;
+	background-color: #B8EBFF;
+	border: solid;
+	border-color: black;
+	border-radius: 36px;
+	text-align: center;
+	font-family: Quicksand;
+	background-image: url(Image/pp5.jpeg);
+	background-size: cover;
+}
